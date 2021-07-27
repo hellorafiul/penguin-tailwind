@@ -7,6 +7,12 @@ color: #FABE4C;
 header{
   background-color: #FFFBF0;
 }
+.model{
+  transition: transform .5s ease-in-out;
+}
+.model:hover{
+  transform:scale(.9);
+}
 
 .button a{
   color: #3C3C3C;
@@ -39,13 +45,21 @@ header{
   padding-right: 10px;
 }
 
+.jacket:hover{
+  transition:transform .3s ease-in-out;
+  transform: translateY(-10px);
+}
 .jacket-img img{
   height: 295px;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
 }
-
+.feature-box:hover{
+  transition: transform .3s ease-in;
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 250, 0.1);
+}
 footer {
   background-color: #0B0D17;
 }
